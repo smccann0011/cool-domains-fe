@@ -11,9 +11,8 @@ import contractAbi from './utils/contractABI.json';
 // Constants
 const TWITTER_HANDLE = '_buildspace';
 const TWITTER_LINK = `https://twitter.com/${TWITTER_HANDLE}`;
-
 const tld = '.samurai'
-//const CONTRACT_ADDRESS = '0x1EF04aEaA556DdD383b8049124023ABBE7b9CEF6';
+//const CONTRACT_ADDRESS_V1 = '0x1EF04aEaA556DdD383b8049124023ABBE7b9CEF6'; 
 const CONTRACT_ADDRESS = '0xb8F18C4aB76b22Aa31bD98A5CE8d519B4e9740FC';
 
 const App = () => {
