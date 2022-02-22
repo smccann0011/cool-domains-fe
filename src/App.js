@@ -246,7 +246,7 @@ const App = () => {
   // Create a function to render if wallet is not connected yet
   const renderNotConnectedContainer = () => (
     <div className="connect-wallet-container">
-      <p><a href="https://giphy.com/gifs/lego-samurai-ninjago-okino-QYSxxwxDyDCzFZ6vgv">via GIPHY</a></p>
+	  <iframe src="https://giphy.com/embed/QYSxxwxDyDCzFZ6vgv" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/lego-samurai-ninjago-okino-QYSxxwxDyDCzFZ6vgv">via GIPHY</a></p>
 
       <button onClick={connectWallet} className="cta-button connect-wallet-button">
         Connect Wallet
